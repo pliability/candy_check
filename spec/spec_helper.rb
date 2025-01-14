@@ -1,5 +1,6 @@
 require "candy_check"
 require "candy_check/cli"
+require "ostruct"
 
 def in_continuous_integration_environment?
   ENV["CI"] || ENV["TRAVIS"] || ENV["CONTINUOUS_INTEGRATION"]
